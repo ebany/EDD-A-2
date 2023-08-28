@@ -1,0 +1,35 @@
+digraph G {
+node [shape=record];
+rankdir=LR;
+node [width=1.5];
+node [height=1.5];
+node [style=filled];
+node [fillcolor="#EEEEEE"];
+node [color="#EEEEEE"];
+edge [color="#31CEF0"];
+node0 [label="{<f0>Proyecto 1 - A|<f1>A}"];
+node1 [label="{<f0>Proyecto 2 - A|<f1>A}"];
+node2 [label="{<f0>Proyecto 3 - A|<f1>A}"];
+node3 [label="{<f0>Proyecto 1 - B|<f1>B}"];
+node4 [label="{<f0>Proyecto 2 - B|<f1>B}"];
+node5 [label="{<f0>Proyecto 3 - B|<f1>B}"];
+node6 [label="{<f0>Proyecto 2 - C|<f1>C}"];
+node7 [label="{<f0>Proyecto 1 - C|<f1>C}"];
+node8 [label="{<f0>Proyecto 3 - C|<f1>C}"];
+"node0":f1 -> "node1":f0;
+"node1":f1 -> "node2":f0;
+"node1":f0 -> "node0":f1;
+"node2":f1 -> "node3":f0;
+"node2":f0 -> "node1":f1;
+"node3":f1 -> "node4":f0;
+"node3":f0 -> "node2":f1;
+"node4":f1 -> "node5":f0;
+"node4":f0 -> "node3":f1;
+"node5":f1 -> "node6":f0;
+"node5":f0 -> "node4":f1;
+"node6":f1 -> "node7":f0;
+"node6":f0 -> "node5":f1;
+"node7":f1 -> "node8":f0;
+"node7":f0 -> "node6":f1;
+"node8":f0 -> "node7":f1;
+}
