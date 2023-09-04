@@ -1,0 +1,28 @@
+digraph G {
+node427[label="427-gato"]
+
+node427 -> node420
+node420[label="420-hola"]
+
+node420 -> node408
+node408[label="408-casa"]
+
+node427 -> node458
+node458[label="458-casa2"]
+
+node458 -> node457
+node457[label="457-casa1"]
+
+node457 -> node457
+node457[label="457-casa1"]
+
+node458 -> node552
+node552[label="552-perro"]
+
+node552 -> node459
+node459[label="459-casa3"]
+
+node552 -> node991
+node991[label="991-adios amor"]
+
+}
