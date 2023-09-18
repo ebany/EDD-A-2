@@ -1,0 +1,25 @@
+digraph G {
+ node [shape=record]node552 [label="552\nperro|1817\nel arte de la guerra"];
+node552->node427
+node427 [label="427\ngato|459\ncasa3"];
+node427->node321
+node321 [label="321\nmas|408\ncasa|420\nhola"];
+node427->node457
+node457 [label="457\ncasa1|458\ncasa2"];
+node552->node947
+node947 [label="947\namor y paz|1468\ntexto de prueba"];
+node947->node772
+node772 [label="772\nel coran|848\nla biblia|935\nHola Mundo"];
+node947->node991
+node991 [label="991\nadios amor|1330\nel principito"];
+node552->node2191
+node2191 [label="2191\nel libro de los muertos|2240\ndon quijote de la mancha|2370\nel libro de la vida eterna"];
+node2191->node1818
+node1818 [label="1818\nel libro de la selva|1909\nel libro de la verdad|1937\nel libro de la muerte|2031\nel libro de la mentira"];
+node2191->node2227
+node2227 [label="2227\nel libro de la sabiduria|2237\nel libro de la oscuridad"];
+node2191->node2271
+node2271 [label="2271\nali baba y los 40 ladrones|2330\nel libro de la ignorancia"];
+node2191->node2386
+node2386 [label="2386\nel libro de la vida mortal|2581\nel libro de la vida infinita|2601\nel libro de la vida inmortal|2779\nel libro de la vida y la muerte"];
+}
